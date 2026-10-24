@@ -3,14 +3,16 @@ export function Header() {
         <header>
             <div className="container">
                 <div className="brand">
-                    <img src="/logo.svg" alt="Logo" />
-                    <h1>Meu Cardápio</h1>
-                    <p>O melhor da cidade</p>
+                    <img src="./assets/img/logo_lanchonete.svg" alt="Logo da Lanchonete" />
+                    <div>
+                        <h1>Cardápio Digital</h1>
+                        <p>Faça o seu pedido pelo nosso cardápio digital</p>
+                    </div>
                 </div>
                 <div className="cart-button">
-                    <img src="/cart.svg" alt="Carrinho" />
+                    <img src="./assets/img/cart.svg" alt="Carrinho de compras" />
                 </div>
             </div>
         </header>
-    );
+    )
 }
